@@ -10,6 +10,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ProgressBar;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import java.sql.Connection;
@@ -20,7 +21,8 @@ import java.sql.Statement;
 public class LoginActivity extends AppCompatActivity {
 
     EditText etEmail, etPassword;
-    Button btnLogin, btnRegisterPage;
+    Button btnLogin;
+    TextView btnRegisterPage;
 
     ProgressBar progressBarLogin;
 
@@ -72,16 +74,22 @@ public class LoginActivity extends AppCompatActivity {
 
             }
         });
-
         btnRegisterPage.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v) {
-
+            public void onClick(View view) {
                 Intent intentRegisterPage = new Intent(getApplicationContext(), Register.class);
-
                 startActivity(intentRegisterPage);
             }
         });
+//        btnRegisterPage.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//
+//                Intent intentRegisterPage = new Intent(getApplicationContext(), Register.class);
+//
+//                startActivity(intentRegisterPage);
+//            }
+//        });
 
 
     }

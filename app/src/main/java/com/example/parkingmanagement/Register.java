@@ -43,32 +43,32 @@ public class Register extends AppCompatActivity {
         etConfirmPass = findViewById(R.id.etConfirmPass);
 
         btnRegister = findViewById(R.id.btnRegister);
-        btnReset = findViewById(R.id.btnReset);
+//        btnReset = findViewById(R.id.btnReset);
 
         progressBarUpdate = findViewById(R.id.progressBarUpdate);
 
-        btnReset.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-
-                runOnUiThread(new Runnable() {
-
-                    @Override
-                    public void run() {
-
-                        // Stuff that updates the UI
-                        etEnterName.setText(null);
-                        etEnterAddress.setText(null);
-                        etEnterEmail.setText(null);
-                        etEnterContactNum.setText(null);
-                        etEnterVehicleId.setText(null);
-                        etCreatePass.setText(null);
-                        etConfirmPass.setText(null);
-                    }
-                });
-            }
-
-        });
+//        btnReset.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//
+//                runOnUiThread(new Runnable() {
+//
+//                    @Override
+//                    public void run() {
+//
+//                        // Stuff that updates the UI
+//                        etEnterName.setText(null);
+//                        etEnterAddress.setText(null);
+//                        etEnterEmail.setText(null);
+//                        etEnterContactNum.setText(null);
+//                        etEnterVehicleId.setText(null);
+//                        etCreatePass.setText(null);
+//                        etConfirmPass.setText(null);
+//                    }
+//                });
+//            }
+//
+//        });
 
         btnRegister.setOnClickListener(new View.OnClickListener() {
             @Override

@@ -11,14 +11,16 @@
         android:layout_width="415dp"
         android:layout_height="64dp"
         android:layout_marginTop="10dp"
-        android:fontFamily="sans-serif-medium"
-        android:gravity="center_horizontal|center_vertical"
+        android:layout_marginBottom="500dp"
+        android:fontFamily="@font/butler_bold"
+        android:gravity="center_vertical"
+        android:paddingStart="30dp"
         android:text="Select City"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+     />
 
     <ProgressBar
         android:id="@+id/progressBarGetCities"
@@ -40,7 +42,9 @@
         android:layout_marginTop="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.0" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

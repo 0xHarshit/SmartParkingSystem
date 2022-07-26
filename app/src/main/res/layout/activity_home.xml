@@ -9,71 +9,76 @@
     <Button
         android:id="@+id/btnUserProfile"
         android:layout_width="380dp"
-        android:layout_height="55dp"
-        android:layout_marginStart="12dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="22dp"
         android:layout_marginEnd="22dp"
+        android:layout_marginTop="370dp"
+        android:layout_marginBottom="10dp"
         android:background="@drawable/custom_button"
         android:text="User Profile"
+        android:fontFamily="@font/poppins_bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.571" />
+        />
 
     <Button
         android:id="@+id/btnNewBooking"
         android:layout_width="380dp"
         android:layout_height="56dp"
-        android:layout_marginStart="12dp"
+        android:layout_marginStart="22dp"
         android:layout_marginEnd="22dp"
+        android:layout_marginTop="220dp"
         android:background="@drawable/custom_button"
         android:text="New Booking"
+        android:fontFamily="@font/poppins_bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.666" />
+        />
 
     <Button
         android:id="@+id/btnLogout"
         android:layout_width="380dp"
         android:layout_height="56dp"
-        android:layout_marginStart="12dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="600dp"
+        android:layout_marginBottom="100dp"
         android:layout_marginEnd="22dp"
         android:background="@drawable/custom_button"
         android:text="Logout"
+        android:fontFamily="@font/poppins_bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.759" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView7"
-        android:layout_width="224dp"
-        android:layout_height="144dp"
+        android:id="@+id/greeting"
+        android:layout_width="408dp"
+        android:layout_height="143dp"
         android:layout_marginTop="50dp"
+        android:layout_marginBottom="250dp"
         android:fontFamily="@font/poppins_light"
         android:text="Hi, There!"
         android:textColor="@color/black"
         android:textFontWeight="800"
         android:textSize="35sp"
+        android:paddingStart="15dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.085"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.266" />
+      />
 
     <TextView
         android:id="@+id/textView8"
         android:layout_width="224dp"
         android:layout_height="144dp"
         android:layout_marginTop="100dp"
+        android:layout_marginBottom="200dp"
         android:fontFamily="@font/poppins_bold"
         android:text="Lets book a parking spot for you"
         android:textColor="@color/grey"
@@ -84,5 +89,5 @@
         app:layout_constraintHorizontal_bias="0.085"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.305" />
+      />
 </androidx.constraintlayout.widget.ConstraintLayout>

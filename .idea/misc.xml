@@ -6,10 +6,18 @@
         <entry key="..\:/Users/shrey/SmartParkingSystem/app/src/main/res/drawable/button_light.xml" value="0.1395" />
         <entry key="..\:/Users/shrey/SmartParkingSystem/app/src/main/res/drawable/custom_button.xml" value="0.1395" />
         <entry key="..\:/Users/shrey/SmartParkingSystem/app/src/main/res/drawable/custom_input.xml" value="0.1" />
+        <entry key="..\:/Users/shrey/SmartParkingSystem/app/src/main/res/layout/activity_add_parking.xml" value="0.264" />
+        <entry key="..\:/Users/shrey/SmartParkingSystem/app/src/main/res/layout/activity_admin_panel.xml" value="0.264" />
+        <entry key="..\:/Users/shrey/SmartParkingSystem/app/src/main/res/layout/activity_all_bookings.xml" value="0.264" />
+        <entry key="..\:/Users/shrey/SmartParkingSystem/app/src/main/res/layout/activity_chech_availibility.xml" value="0.14945652173913043" />
+        <entry key="..\:/Users/shrey/SmartParkingSystem/app/src/main/res/layout/activity_check_availability.xml" value="0.14945652173913043" />
+        <entry key="..\:/Users/shrey/SmartParkingSystem/app/src/main/res/layout/activity_check_availibility.xml" value="0.14945652173913043" />
+        <entry key="..\:/Users/shrey/SmartParkingSystem/app/src/main/res/layout/activity_editprofile.xml" value="0.264" />
         <entry key="..\:/Users/shrey/SmartParkingSystem/app/src/main/res/layout/activity_home.xml" value="0.25" />
         <entry key="..\:/Users/shrey/SmartParkingSystem/app/src/main/res/layout/activity_login.xml" value="0.2" />
         <entry key="..\:/Users/shrey/SmartParkingSystem/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Users/shrey/SmartParkingSystem/app/src/main/res/layout/activity_payment.xml" value="0.1933876811594203" />
+        <entry key="..\:/Users/shrey/SmartParkingSystem/app/src/main/res/layout/activity_payment2.xml" value="0.19021739130434784" />
         <entry key="..\:/Users/shrey/SmartParkingSystem/app/src/main/res/layout/activity_register.xml" value="0.25" />
         <entry key="..\:/Users/shrey/SmartParkingSystem/app/src/main/res/layout/activity_select_building.xml" value="0.1933876811594203" />
         <entry key="..\:/Users/shrey/SmartParkingSystem/app/src/main/res/layout/activity_select_city.xml" value="0.1933876811594203" />
@@ -17,6 +25,7 @@
         <entry key="..\:/Users/shrey/SmartParkingSystem/app/src/main/res/layout/activity_show_invoice.xml" value="0.1933876811594203" />
         <entry key="..\:/Users/shrey/SmartParkingSystem/app/src/main/res/layout/activity_updatepassword.xml" value="0.1933876811594203" />
         <entry key="..\:/Users/shrey/SmartParkingSystem/app/src/main/res/layout/activity_userprofile.xml" value="0.1933876811594203" />
+        <entry key="..\:/Users/shrey/SmartParkingSystem/app/src/main/res/layout/all_bookings_items.xml" value="0.161231884057971" />
       </map>
     </option>
   </component>

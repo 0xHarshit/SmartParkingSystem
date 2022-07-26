@@ -226,13 +226,6 @@ public class Register extends AppCompatActivity {
                             }
                         });
 
-//                        runOnUiThread(new Runnable() {
-//                            public void run() {
-//
-//                                etCreatePass.setText(null);
-//                                etConfirmPass.setText(null);
-//                            }
-//                        });
 
                         try {
                             connection1.close();

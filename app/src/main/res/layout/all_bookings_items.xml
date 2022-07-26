@@ -9,7 +9,7 @@
         android:id="@+id/singleRow"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#B28AC1"
+        android:background="@color/grey"
         android:padding="8dp">
 
 
@@ -20,6 +20,7 @@
             android:layout_marginStart="5dp"
             android:layout_marginTop="10dp"
             android:text="TextView"
+            android:fontFamily="@font/poppins_bold"
             android:textSize="18sp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -32,6 +33,8 @@
             android:layout_marginTop="10dp"
             android:text="TextView"
             android:textSize="18sp"
+                        android:fontFamily="@font/poppins_bold"
+
             app:layout_constraintStart_toEndOf="@+id/tvAllBookingsBuilding"
             app:layout_constraintTop_toTopOf="parent" />
 
@@ -43,6 +46,8 @@
             android:layout_marginTop="5dp"
             android:text="TextView"
             android:textSize="18sp"
+                        android:fontFamily="@font/poppins_bold"
+
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/tvAllBookingsBuilding" />
 
@@ -54,6 +59,8 @@
             android:layout_marginTop="5dp"
             android:text="TextView"
             android:textSize="18sp"
+                        android:fontFamily="@font/poppins_bold"
+
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/tvAllBookingsTime" />
 
@@ -62,6 +69,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
+            android:background="@drawable/custom_button"
             android:text="Button"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/tvAllBookingsDuration" />
@@ -71,6 +79,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
+            android:background="@drawable/custom_button"
             android:text="Button"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@+id/btnStatus"

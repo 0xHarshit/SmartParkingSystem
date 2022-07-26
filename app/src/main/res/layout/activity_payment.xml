@@ -10,7 +10,7 @@
         android:layout_width="415dp"
         android:layout_height="64dp"
         android:layout_marginTop="212dp"
-        android:fontFamily="sans-serif-medium"
+        android:fontFamily="@font/butler_bold"
         android:gravity="center_horizontal|center_vertical"
         android:text="Payment Details"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
@@ -27,6 +27,7 @@
         android:gravity="center"
         android:text="TextView"
         android:textSize="18sp"
+        android:fontFamily="@font/poppins_bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tvSlot" />
@@ -37,6 +38,7 @@
         android:layout_height="45dp"
         android:layout_marginTop="40dp"
         android:text="Pay"
+        android:fontFamily="@font/poppins_bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
@@ -50,6 +52,7 @@
         android:gravity="center"
         android:text="TextView"
         android:textSize="18sp"
+        android:fontFamily="@font/poppins_bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tvDuration" />
@@ -62,6 +65,7 @@
         android:gravity="center"
         android:text="TextView"
         android:textSize="18sp"
+        android:fontFamily="@font/poppins_bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tvSelectedDate" />
@@ -74,6 +78,7 @@
         android:gravity="center"
         android:text="TextView"
         android:textSize="18sp"
+        android:fontFamily="@font/poppins_bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView10" />

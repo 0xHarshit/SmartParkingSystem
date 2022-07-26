@@ -1,7 +1,5 @@
 package com.example.parkingmanagement;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.AsyncTask;
 import android.os.Bundle;
@@ -10,6 +8,8 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.ProgressBar;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -92,11 +92,11 @@ public class SelectCityActivity extends AppCompatActivity {
                 @Override
                 public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
 
-//                    Intent intent = new Intent(getApplicationContext(), SelectBuildingActivity.class);
-//
-//                    intent.putExtra("city", strings.get(position));
-//                    intent.putExtra("userId", userId);
-//                    startActivity(intent);
+                    Intent intent = new Intent(getApplicationContext(), SelectBuildingActivity.class);
+
+                    intent.putExtra("city", strings.get(position));
+                    intent.putExtra("userId", userId);
+                    startActivity(intent);
 
                 }
             });

@@ -34,11 +34,13 @@
         android:ems="10"
         android:hint="VehicleId"
         android:inputType="textPersonName"
-        android:paddingStart="12dp"
+        android:paddingStart="15dp"
         android:paddingEnd="12dp"
+        android:fontFamily="@font/poppins_bold"
+        android:textSize="14sp"
+        android:textFontWeight="700"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent" />
 
     <EditText
@@ -52,11 +54,13 @@
         android:ems="10"
         android:hint="Email"
         android:inputType="textPersonName"
-        android:paddingStart="12dp"
+        android:paddingStart="15dp"
         android:paddingEnd="12dp"
+        android:fontFamily="@font/poppins_bold"
+        android:textSize="14sp"
+        android:textFontWeight="700"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent" />
 
     <EditText
@@ -70,11 +74,13 @@
         android:ems="10"
         android:hint="Contact Number"
         android:inputType="textPersonName"
-        android:paddingStart="12dp"
+        android:paddingStart="15dp"
         android:paddingEnd="12dp"
+        android:fontFamily="@font/poppins_bold"
+        android:textSize="14sp"
+        android:textFontWeight="700"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent" />
 
     <EditText
@@ -88,11 +94,13 @@
         android:ems="10"
         android:hint="Address"
         android:inputType="textPersonName"
-        android:paddingStart="12dp"
+        android:paddingStart="15dp"
         android:paddingEnd="12dp"
+        android:fontFamily="@font/poppins_bold"
+        android:textSize="14sp"
+        android:textFontWeight="700"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent" />
 
     <EditText
@@ -105,12 +113,14 @@
         android:background="@drawable/custom_input"
         android:ems="10"
         android:hint="Name"
-        android:inputType="textPersonName"
-        android:paddingStart="12dp"
+        android:paddingStart="15dp"
         android:paddingEnd="12dp"
+        android:fontFamily="@font/poppins_bold"
+        android:textSize="14sp"
+        android:textFontWeight="700"
+        android:inputType="textPersonName"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent" />
 
 
@@ -118,13 +128,18 @@
         android:id="@+id/etConfirmPass"
         android:layout_width="367dp"
         android:layout_height="56dp"
-        android:layout_marginBottom="160dp"
+        android:layout_marginBottom="92dp"
         android:background="@drawable/custom_input"
         android:ems="10"
+        android:layout_marginStart="22dp"
+        android:layout_marginEnd="22dp"
         android:hint="Confirm password"
         android:inputType="textPassword"
-        android:paddingStart="12dp"
+        android:paddingStart="15dp"
         android:paddingEnd="12dp"
+        android:fontFamily="@font/poppins_bold"
+        android:textSize="14sp"
+        android:textFontWeight="700"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
@@ -133,13 +148,18 @@
         android:id="@+id/etCreatePass"
         android:layout_width="367dp"
         android:layout_height="56dp"
-        android:layout_marginBottom="92dp"
+        android:layout_marginBottom="160dp"
         android:background="@drawable/custom_input"
         android:ems="10"
         android:hint="Create password"
+        android:layout_marginStart="22dp"
+        android:layout_marginEnd="22dp"
         android:inputType="textPassword"
-        android:paddingStart="12dp"
+        android:paddingStart="15dp"
         android:paddingEnd="12dp"
+        android:fontFamily="@font/poppins_bold"
+        android:textSize="14sp"
+        android:textFontWeight="700"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
@@ -151,6 +171,7 @@
         android:layout_marginBottom="16dp"
         android:background="@drawable/custom_button"
         android:text="Register"
+        android:fontFamily="@font/poppins_bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
@@ -163,7 +184,6 @@
         android:layout_marginTop="80dp"
         android:visibility="invisible"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnRegister" />
 

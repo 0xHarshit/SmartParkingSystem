@@ -22,9 +22,11 @@ public class MainActivity extends AppCompatActivity {
 
         if(sharedPreferences.getBoolean("loggedIn", false)){
             String userId = sharedPreferences.getString("userId", "null");
+            String name = sharedPreferences.getString("name", "null");
             Intent intentHome = new Intent(getApplicationContext(), HomeActivity.class);
 
             intentHome.putExtra("userId", userId);
+            intentHome.putExtra("name", name);
             startActivity(intentHome);
         }
         else

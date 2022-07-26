@@ -10,25 +10,42 @@
         android:id="@+id/textView6"
         android:layout_width="415dp"
         android:layout_height="64dp"
-        android:fontFamily="sans-serif-medium"
-        android:gravity="center_horizontal|center_vertical"
-        android:text="Admin Panel"
+        android:layout_marginTop="70dp"
+        android:paddingStart="32dp"
+        android:fontFamily="@font/butler_bold"
+        android:gravity="center_vertical"
+        android:text="Admin"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-        android:textSize="24sp"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+        <TextView
+        android:id="@+id/textView7"
+        android:layout_width="415dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="105dp"
+        android:paddingStart="32dp"
+        android:fontFamily="@font/butler_bold"
+        android:gravity="center_vertical"
+        android:text="Panel" android:textColor="@color/grey"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="28sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+
     <Button
         android:id="@+id/btnAddParking"
-        android:layout_width="279dp"
-        android:layout_height="46dp"
-        android:text="add parking"
+        android:layout_width="367dp"
+        android:layout_height="56dp"
+        android:layout_marginBottom="480dp"
+        android:text="ADD"
+        android:fontFamily="@font/poppins_bold"
+        android:background="@drawable/custom_button"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView6"
-        app:layout_constraintVertical_bias="0.066" />
+        app:layout_constraintStart_toStartOf="parent"  />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

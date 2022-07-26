@@ -16,8 +16,9 @@
             android:id="@+id/textView8"
             android:layout_width="match_parent"
             android:layout_height="64dp"
-            android:fontFamily="sans-serif-medium"
-            android:gravity="center_horizontal|center_vertical"
+            android:fontFamily="@font/butler_bold"
+            android:paddingStart="30dp"
+            android:gravity="center_vertical"
             android:text="Select Parking Slot"
             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
             android:textSize="24sp"
@@ -56,13 +57,16 @@
 
             <Button
                 android:id="@+id/btnBook"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="367dp"
+        android:layout_height="56dp"
+        android:layout_marginBottom="280dp"
+        android:text="ADD"
                 android:layout_gravity="center"
-                android:text="Button"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent" />
+        android:fontFamily="@font/poppins_bold"
+        android:background="@drawable/custom_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"  />
 
             <ProgressBar
                 android:id="@+id/progressBarCheck"

@@ -46,11 +46,10 @@ public class LoginActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                String[] params = {etEmail.getText().toString(), etPassword.getText().toString()};
-
-                    if(etEmail.getText().toString().equals("admin"))
+                String[] params = {etEmail.getText().toString().trim(), etPassword.getText().toString()};
+                if(etEmail.getText().toString().equals("admin"))
                     {
-                        if(etPassword.getText().toString().equals("phantom654"))
+                        if(etPassword.getText().toString().equals("0908"))
                         {
                             Intent intent = new Intent(getApplicationContext(), AdminPanel.class);
 
@@ -69,9 +68,6 @@ public class LoginActivity extends AppCompatActivity {
                     {
                         new Login().execute(params);
                     }
-
-//>>>>>>> 22c14112945307b11d68bd8cd82d574032223ed1
-
             }
         });
         btnRegisterPage.setOnClickListener(new View.OnClickListener() {
@@ -81,15 +77,7 @@ public class LoginActivity extends AppCompatActivity {
                 startActivity(intentRegisterPage);
             }
         });
-//        btnRegisterPage.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
 //
-//                Intent intentRegisterPage = new Intent(getApplicationContext(), Register.class);
-//
-//                startActivity(intentRegisterPage);
-//            }
-//        });
 
 
     }
@@ -124,15 +112,16 @@ public class LoginActivity extends AppCompatActivity {
                 if (resultSetUserExists.next() == false) {
                     runOnUiThread(new Runnable() {
                         public void run() {
-                            Toast tostUserNotFound = Toast.makeText(getApplicationContext(), "User not found!", Toast.LENGTH_SHORT);
-                            tostUserNotFound.show();
+                            Toast toastUserNotFound = Toast.makeText(getApplicationContext(), "User not found!", Toast.LENGTH_SHORT);
+                            toastUserNotFound.show();
                         }
                     });
 
                 } else {
 //                    System.out.println(resultSetUserExists.getString((3)));
 //                    System.out.println(password);
-                    if (!resultSetUserExists.getString(3).equals(password)) {
+                    String a = resultSetUserExists.getString(3);
+                    if (a.equals(password) == false) {
 
                         runOnUiThread(new Runnable() {
                             public void run() {
@@ -149,9 +138,11 @@ public class LoginActivity extends AppCompatActivity {
                         });
 
                         String userId = resultSetUserExists.getString(1);
+                        String name = resultSetUserExists.getString(2);
 
                         sharedPreferences.edit().putBoolean("loggedIn", true).apply();
                         sharedPreferences.edit().putString("userId", userId).apply();
+                        sharedPreferences.edit().putString("name", name.split(" ",2)[0]).apply();
 
                         try {
                             resultSetUserExists.close();
@@ -164,6 +155,7 @@ public class LoginActivity extends AppCompatActivity {
                         Intent intent = new Intent(getApplicationContext(), HomeActivity.class);
 
                         intent.putExtra("userId", userId);
+                        intent.putExtra("name", name.split(" ",2)[0]);
                         startActivity(intent);
                     }
                 }

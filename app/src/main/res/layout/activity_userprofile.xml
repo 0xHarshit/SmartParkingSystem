@@ -8,22 +8,26 @@
 
     <Button
         android:id="@+id/btnUpdate"
-        android:layout_width="217dp"
+        android:layout_width="367dp"
         android:layout_height="56dp"
-        android:layout_marginBottom="356dp"
-        android:text="show Bookings"
+        android:layout_marginBottom="350dp"
+        android:text="Show Bookings"
+        android:fontFamily="@font/poppins_bold"
+        android:background="@drawable/custom_button"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"/>
 
     <Button
         android:id="@+id/btnEditProfile"
-        android:layout_width="215dp"
-        android:layout_height="60dp"
-        android:layout_marginTop="228dp"
+        android:layout_width="367dp"
+        android:layout_height="56dp"
+        android:layout_marginBottom="280dp"
         android:text="Edit Profile"
+        android:fontFamily="@font/poppins_bold"
+        android:background="@drawable/custom_button"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
